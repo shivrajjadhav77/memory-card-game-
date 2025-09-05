@@ -1,16 +1,16 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  background: linear-gradient(135deg, #74ebd5, #bdc3db);
   min-height: 100vh;
   margin: 0;
   padding: 20px;
-  color: #333;
+  color: #686262;
 }
 
 h1 {
   margin-bottom: 5px;
-  color: #222;
+  color: #1774df;
 }
 
 .game-container {
@@ -24,7 +24,7 @@ h1 {
 .card {
   width: 100px;
   height: 100px;
-  background: #ffffff;
+  background: #8ec724;
   border-radius: 12px;
   display: flex;
   justify-content: center;
@@ -36,12 +36,12 @@ h1 {
 }
 
 .card.flipped {
-  background: #ffd369;
+  background: #6b060b;
   transform: rotateY(180deg);
 }
 
 .card.matched {
-  background: #95e1d3;
+  background: #17af93;
   cursor: default;
-  box-shadow: 0 0 10px #2ecc71;
+  box-shadow: 0 0 10px #000e06;
 }
